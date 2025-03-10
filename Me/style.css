@@ -3,6 +3,22 @@ img {
     width: auto;
 }
 
+img #cookies {
+    width: 500px;
+    height: auto;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+    background-color: blue;
+    color: white;
+    justify-content: space-between;
+}
+
+.bio {
+    width: 50%;
 }
