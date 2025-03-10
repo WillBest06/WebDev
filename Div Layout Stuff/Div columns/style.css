@@ -1,0 +1,30 @@
+.divRed {
+    background-color: #FE4C4C;
+    color: white;
+    font-size: 48px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#div1 {
+    width: 100px;
+    flex: 1 1 auto;
+}
+
+#div2 {
+
+}
+
+#div3 {
+    width: 200px;
+}
