@@ -1,0 +1,51 @@
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.container.col {
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+}
+
+.head {
+    height: 50%;
+}
+
+.intro {
+    height: 30%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 75%;
+}
+
+.box {
+    width: 33%;
+    text-align: center;
+}
+
+.top, .bottom {
+    height: 50vh;
+}
+
+.foot {
+    height: 25%;
+}
+
+.foot, .intro, .box, .head, .logo {
+    outline:1px solid black;
+    /* border:1px solid black; */
+}

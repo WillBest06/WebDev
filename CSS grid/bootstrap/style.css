@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "head head head"
+        "navi navi navi"
+        "cont cont sect"
+        "foot foot foot";
+}
+
+.head {
+    grid-area: head;
+}
+
+.navi {
+    grid-area: navi;
+}
+
+.cont {
+    grid-area: cont;
+}
+
+.sect {
+    grid-area: sect;
+}
+
+.foot {
+    grid-area: foot;
+}
+
+ul.navi {
+    display: flex;
+    text-decoration: none;
+    justify-content: left;
+    gap: 1rem;
+    list-style: none;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
